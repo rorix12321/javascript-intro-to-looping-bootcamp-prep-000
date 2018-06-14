@@ -7,6 +7,7 @@ function forLoop(array) {
 }
 function whileLoop(n) {
   while (n > 0) {
+<<<<<<< HEAD
     console.log(n);
     n = n - 1;
   }
@@ -19,4 +20,8 @@ function doWhileLoop(array) {
  while (array.length > 0 && maybeTrue())
  {array.length = array.length-1};
  return array;
+=======
+    console.log(n - 1)}
+     return "done";
+>>>>>>> deda75a218c392106ac554244bd02f7722f74c34
 }
